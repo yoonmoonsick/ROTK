@@ -1,0 +1,3 @@
+<LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN">험지</LSTag>
+<LSTag Tooltip="ArmourClass">방어도</LSTag>
+<LSTag Tooltip="MovementSpeed">이동 속도</LSTag>

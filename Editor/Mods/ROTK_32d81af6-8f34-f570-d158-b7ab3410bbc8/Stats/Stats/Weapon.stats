@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
+  <stat_objects>
+    <stat_object color="#FFFF0000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3342360c-cb68-498b-b2b7-ce81e4a21a4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="오나라" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="24f7c5b1-3d91-4ca6-8a96-53305390523a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_TigerBlade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="903b673f-d058-4877-b12f-131c09e13cbf" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Fire);" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_OpeningAttack);UnlockSpell(Target_Slash_New);UnlockSpell(Rush_SpringAttack);UnlockSpell(Rush_MAG_Mobility_SprintForMomentum_Action);" />
+        <field name="StatusOnEquip" type="StringTableFieldDefinition" value="MAG_MOBILITY_ONCOMBATSTART_APPLIER_TECHNICAL;" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0e9abeec-5340-47e1-ac93-337809d62d0e" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ROTK_Passive_TigerBlade;MAG_Mobility_MomentumOnCombatStart_Passive;MAG_PHB_Sentinel_Shield_Passive;" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e5152c22-cd9d-47a2-bde7-0ec0eadb700d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_ConquerorPike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8bad20fc-7bc0-402b-86a3-0697cbcdf49b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9a2f441c-b9ea-4106-af23-0817ab56eab6" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Fire);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ROTK_Passive_ConquerorPike;ImprovedCritical;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="629c63db-81f0-4e45-af09-4d2bf4477c60" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_Pyresting" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e5f952fb-ed18-4730-a684-b5264c921c84" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="271f3bab-dff8-4fb6-b7e1-933ef6e826b0" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, 12)):ApplyStatus(LOW_HOUSEOFHOPE_FIRE,100, 2);" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Fire);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ROTK_Passive_Pyresting;MAG_Fire_HeatOnWeaponDamage_Passive;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3dd49963-27e7-4faa-bb81-0ec69ed7bb07" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_Warfeller" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f4512c2e-71e9-4b23-8d58-5ea4a25c270e" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Fire);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ROTK_Passive_Warfeller;" />
+        <field name="StatusOnEquip" type="StringTableFieldDefinition" value="WARFELLER_REMOVAL_TECHNICAL;" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="903a11e1-39b0-400a-a2f9-3e6f80f76649" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb5aed3a-b2de-446c-a65c-d455b682c001" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_Wavecleaver" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4a78c03d-559b-40bb-9cec-fd54ff0727ff" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7f908c3d-5d5f-4b8e-9c20-7b22215fcf4e" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Fire);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ROTK_Passive_Wavecleaver;" />
+        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="ApplyStatus(WAVE_CLEAVER,100, 2);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

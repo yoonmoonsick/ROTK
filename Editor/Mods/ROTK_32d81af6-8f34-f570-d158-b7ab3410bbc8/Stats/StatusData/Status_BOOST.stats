@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object color="#FFFF0000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="07e3d038-8a0e-402a-a169-525972d5d5ca" />
+        <field name="Name" type="NameTableFieldDefinition" value="오나라" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="809194b8-1701-4f90-8055-8cccfeeb473c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WARFELLER_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f3fae9aa-5868-4247-a1a7-a2f0626613e3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he4e08807gad59gc321g61eag2bbe6ac0968c" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2f01c8ad-d6b8-4f66-b7e8-d0602394d954" />
+        <field name="Name" type="NameTableFieldDefinition" value="WARFELLER_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="030fd47d-bd16-4db2-84fa-5706d56302df" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he4e08807gad59gc321g61eag2bbe6ac0968c" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="437df442-5841-41b5-965e-2cf52495b65e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WARFELLER_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="68b48143-54fe-4bc4-97dc-11af1fce785e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he4e08807gad59gc321g61eag2bbe6ac0968c" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageBonus(3);RollBonus(Attack, 3);SpellSaveDC(3);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1cdd19a1-2f46-408d-947e-35b3c923165e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WARFELLER_REMOVAL_TECHNICAL" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4da92598-7c40-4879-be95-88ad6fd5ba74" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4cde181f-5620-4d09-884f-c18f671f84fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="WAVE_CLEAVER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h72c70b58g14dag1498g1f7bgd77dc16225d5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h243f6e9bg86c8gaec4g0641gf61dbaade3b7" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleave_New" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AC(-1);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

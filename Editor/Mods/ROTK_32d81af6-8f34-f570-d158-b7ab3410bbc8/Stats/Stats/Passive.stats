@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object color="#FFFF0000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da205567-9f76-453f-b1fa-eb84c1815a3f" />
+        <field name="Name" type="NameTableFieldDefinition" value="오나라" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="08e9948f-d606-4d02-a107-6fb51c3610c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_Passive_TigerBlade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fd9eed15-5bae-4139-8ac4-47e20ada9820" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfc5fd0b1g7b91g51e2g08e5g2d4f1206dcb2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2eb5f8fcga626g244dgeb62gcf12e381524a" version="2" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('MAG_MOMENTUM', context.Source) and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,MAG_VIOLENCE,100,3);ApplyStatus(SELF,MAG_VIOLENCE_DURATION_TECHNICAL, 100, 1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9bff64f-a2d7-4a96-9ad2-83fc86793a3b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_Passive_ConquerorPike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8df892b6-6c6c-45dc-8eda-b7923c406b27" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haae2af07g3bcag7ecagfabegbded057bd1ed" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h45788025g1bc7g9f93g36e2gc2533300e780" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(((not HasStatus('WILDSHAPE_TECHNICAL',context.Target) and HasHPLessThan(1)) and not Ally() and Character()) or (HasDamageEffectFlag(DamageFlags.Critical) and not HasDamageEffectFlag(DamageFlags.Miss) and not Ally() and Character())) and IsWeaponAttack() and IsMeleeAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,MAG_BONUS_ACTION,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1edc5e4e-9d50-4ccd-8c1f-e93f3394f10b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_Passive_Pyresting" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he790cb7eg8782g4e82gd0b8g1507d48c65d6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h652d9aa6g0f9eg5572g2caag124bf62f6d15" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a3b7774c-41a7-4e78-84d0-33a7d728702e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_Passive_Warfeller" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3cd01aa7-547c-455f-bc17-a54ca8c99eea" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he4e08807gad59gc321g61eag2bbe6ac0968c" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('WARFELLER_3', context.Source)):ApplyStatus(SELF, MAG_SCARLET_REMITTANCE_APPLIED_VFX, 100, 0);IF(HasStatus('WARFELLER_2', context.Source)):ApplyStatus(SELF, WARFELLER_3, 100, -1);IF(HasStatus('WARFELLER_1', context.Source)):ApplyStatus(SELF, WARFELLER_2, 100, -1);IF(not HasStatus('WARFELLER_2', context.Source) and not HasStatus('WARFELLER_3', context.Source)):ApplyStatus(SELF, WARFELLER_1, 100, -1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d74f0428-85c8-483c-a5a3-3eb3dfabfd24" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_Passive_Wavecleaver" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h72c70b58g14dag1498g1f7bgd77dc16225d5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haba93391gab8cgad9eg43eeg30795d1b2543" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(Combat(context.Source) and Combat() and not HadTurnInCombat()):DamageBonus(Level);IF(Combat(context.Source) and Combat() and not HadTurnInCombat()):Advantage(AttackRoll);ActionResource(Movement,3,0);StatusImmunity(SG_DifficultTerrain);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
