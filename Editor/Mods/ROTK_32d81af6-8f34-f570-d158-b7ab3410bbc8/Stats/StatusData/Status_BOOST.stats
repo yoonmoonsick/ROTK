@@ -37,6 +37,22 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7323da1-e948-4652-a2ad-037cc7f63651" />
+        <field name="Name" type="NameTableFieldDefinition" value="SOLITARYBREAKER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdc7e4e74ge5f2g3b23g77f8g4e17efa49d84" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h743ebac7ga7f5g2072ga9edgce6862989c96" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_RecklessAttack" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SOLITARYBREAKER" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Slashing,Resistant);Resistance(Piercing,Resistant);Resistance(Bludgeoning,Resistant);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFF0000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="07e3d038-8a0e-402a-a169-525972d5d5ca" />

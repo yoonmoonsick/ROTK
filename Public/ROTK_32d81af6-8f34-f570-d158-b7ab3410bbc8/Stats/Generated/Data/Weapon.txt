@@ -56,6 +56,16 @@ data "RootTemplate" "475dc6fd-179e-4642-ae52-24b902a4e6a8"
 data "WeaponFunctors" ""
 data "PassivesOnEquip" "ROTK_Passive_FarskySpear;Mobile_CounterAttackOfOpportunity;"
 
+new entry "ROTK_WPN_SolitaryBreaker"
+type "Weapon"
+using "WPN_Greatsword_2"
+data "RootTemplate" "3b43487e-f079-4e39-ae29-28f2aeeff320"
+data "ValueUUID" "d24c441f-7ebe-4229-8522-cf34c257ff20"
+data "Rarity" "Legendary"
+data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Lightning);"
+data "PassivesOnEquip" "ROTK_Passive_SolitaryBreaker;RecklessAttack;"
+data "Unique" "1"
+
 new entry "오나라"
 type "Weapon"
 

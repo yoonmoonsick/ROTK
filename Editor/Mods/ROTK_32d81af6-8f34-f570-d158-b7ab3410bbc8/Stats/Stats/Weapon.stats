@@ -77,6 +77,19 @@
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ROTK_Passive_FarskySpear;Mobile_CounterAttackOfOpportunity;" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b056eb68-6c3b-43cc-be18-031fee3db3de" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_SolitaryBreaker" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9ea200ec-dc51-48b1-a989-8b3c5b98bf1f" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3b43487e-f079-4e39-ae29-28f2aeeff320" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Lightning);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ROTK_Passive_SolitaryBreaker;RecklessAttack;" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFF0000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3342360c-cb68-498b-b2b7-ce81e4a21a4b" />

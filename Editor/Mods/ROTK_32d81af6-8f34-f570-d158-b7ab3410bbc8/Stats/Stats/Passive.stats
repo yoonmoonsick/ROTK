@@ -52,6 +52,20 @@
         <field name="Icon" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_FarskySpear);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="be54a1a2-1292-42ae-ae60-0f5538fa0d66" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_Passive_SolitaryBreaker" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="82ab92b2-70d4-450a-801c-a7c82f146652" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdc7e4e74ge5f2g3b23g77f8g4e17efa49d84" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h743ebac7ga7f5g2072ga9edgce6862989c96" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and IsWeaponAttack() and HasEnemyWithinRange('SG_Incapacitated', 3, nil, 2, context.Target, context.Source);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,SOLITARYBREAKER,100,1)" />
       </fields>
     </stat_object>
     <stat_object color="#FFFF0000" is_substat="false">
