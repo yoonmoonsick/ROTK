@@ -1,6 +1,72 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
   <stat_objects>
+    <stat_object color="#FF008000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3afde386-8650-49c1-b7df-0cca8caebfef" />
+        <field name="Name" type="NameTableFieldDefinition" value="촉나라" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba962301-6bc8-422b-aced-e0f0ed80b747" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_TwinSword_Ren" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c87e038e-160f-4eba-bbf9-543a3119264c" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9e071f82-0fe3-4d47-894a-741e40eed546" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Lightning);" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_PommelStrike);UnlockSpell(Target_Slash_New);UnlockSpell(Rush_SpringAttack);UnlockSpell(Shout_AuraOf_Warding);" />
+        <field name="PassivesMainHand" type="StringTableFieldDefinition" value="ROTK_Passive_TwinSword_Ren;DualWielder_PassiveBonuses;" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StatusOnEquip" type="StringTableFieldDefinition" value="TWINSWORD_REN;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="63b7010b-6dcd-4cc9-969e-3b767e3aabb9" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_TwinSword_Yi" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2054de45-4e46-45b2-a3a1-80473a9ba31e" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c8149003-3546-418c-873a-3948afa8afd2" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Lightning);" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_PommelStrike);UnlockSpell(Target_Slash_New);UnlockSpell(Rush_SpringAttack);" />
+        <field name="BoostsOnEquipOffHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_UND_Bless_StaffBlessMystra);" />
+        <field name="PassivesOffHand" type="StringTableFieldDefinition" value="ROTK_Passive_TwinSword_Yi;FightingStyle_TwoWeaponFighting;" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StatusOnEquip" type="StringTableFieldDefinition" value="TWINSWORD_YI;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="147b2445-405d-4077-ac32-b56d02146b87" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_DragonBlade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f4f1b96-3f6c-4191-b350-51c17f7985a4" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e703dfaf-7a65-41cc-89f7-3552af36372a" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, 12)):DealDamage(10,Slashing);" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Lightning);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ROTK_Passive_DragonBlade;MAG_IgnoreSlashingResistance_Passive;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5eb029cb-5eb1-41c9-8931-91503c8bfb9d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_SerpentSpear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="69e56c13-ccdd-4f05-b722-212c53f99069" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8f861eb8-3ef1-4142-a910-ed22fd7a911b" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Wisdom, 12)):ApplyStatus(FEARED,100, 2);" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Lightning);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ROTK_Passive_SerpentSpear;MAG_IgnorePiercingResistance_Passive;" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFF0000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3342360c-cb68-498b-b2b7-ce81e4a21a4b" />
@@ -74,6 +140,7 @@
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Fire);" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ROTK_Passive_Wavecleaver;" />
         <field name="WeaponFunctors" type="StringTableFieldDefinition" value="ApplyStatus(WAVE_CLEAVER,100, 2);" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
   </stat_objects>

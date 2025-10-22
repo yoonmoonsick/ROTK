@@ -1,6 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
   <stat_objects>
+    <stat_object color="#FF008000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15de2df3-d841-40f5-bac7-d5908d72f556" />
+        <field name="Name" type="NameTableFieldDefinition" value="촉나라" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="acbcc0b3-9255-4484-b2ba-f366e3983a49" />
+        <field name="Name" type="NameTableFieldDefinition" value="TWINSWORD_REN" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TWINSWORD_REN" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3cb0094f-1466-4586-8def-2293ad4fbe41" />
+        <field name="Name" type="NameTableFieldDefinition" value="TWINSWORD_YI" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TWINSWORD_YI" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9cf8c8ac-9469-4c95-a7dc-f04152bcd2d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="TWINSWORD_RENYI" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TWINSWORD_RENYI" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Charisma,3,24);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not (HasStatus('TWINSWORD_REN', context.Source) and HasStatus('TWINSWORD_YI', context.Source));" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved;OnEquip;OnUnequip" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFF0000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="07e3d038-8a0e-402a-a169-525972d5d5ca" />

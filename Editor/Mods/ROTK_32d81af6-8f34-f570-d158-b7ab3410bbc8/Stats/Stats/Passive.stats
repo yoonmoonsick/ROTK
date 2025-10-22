@@ -1,6 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
   <stat_objects>
+    <stat_object color="#FF008000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7b0c66b0-357c-4a3f-841d-0022456d5809" />
+        <field name="Name" type="NameTableFieldDefinition" value="촉나라" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="82ee9602-cf88-46aa-81e9-af4499dd3c3d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_Passive_TwinSword_Ren" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h266c81b4g73cag76c8g5c47g2286b168bd18" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h65e3ef31gd917gd582g37bfg42176395ee4c" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnEquip;OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('TWINSWORD_REN', context.Source) and HasStatus('TWINSWORD_YI', context.Source);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,TWINSWORD_RENYI,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eec1a357-64c7-45ab-b164-c8052f6a2343" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_Passive_TwinSword_Yi" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="82ee9602-cf88-46aa-81e9-af4499dd3c3d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ec03f59-8c3a-44a2-9729-fb16aa1ff4eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_Passive_DragonBlade" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8138af17g79fbg0de4g91dage3d3fffcab54" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcca6d8a8g3c10g29d6g9a12g7e9880a0d56b" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(10, Slashing)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="097eb599-2979-4b92-a180-f19654c9f5f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_Passive_SerpentSpear" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ac2f038ge8bcg3ef8gb3beg77f0f56af116" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha1651cd5gfe7cg96abg69a6g33c0b023493c" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFF0000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="da205567-9f76-453f-b1fa-eb84c1815a3f" />
