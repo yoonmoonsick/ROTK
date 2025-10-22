@@ -1,3 +1,21 @@
+new entry "위나라"
+type "PassiveData"
+
+new entry "New_Stat_2"
+type "PassiveData"
+
+new entry "New_Stat_3"
+type "PassiveData"
+
+new entry "New_Stat_4"
+type "PassiveData"
+
+new entry "New_Stat_5"
+type "PassiveData"
+
+new entry "New_Stat_6"
+type "PassiveData"
+
 new entry "촉나라"
 type "PassiveData"
 

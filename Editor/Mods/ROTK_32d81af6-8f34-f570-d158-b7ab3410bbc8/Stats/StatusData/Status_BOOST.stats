@@ -1,6 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
   <stat_objects>
+    <stat_object color="#FF0000FF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db728f83-5487-44a2-8428-bb2765a980a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="위나라" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="725005ef-50fa-476e-aefb-73eaf453b9c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="COMMANDERS_STRIKE_HEAVENLYJUSTICE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="481af2a9-8780-4d66-a1b3-64c8a69df692" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf1c832e5gd4cdg5c7cg6a34g84aa8c091e38" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2d32881ag9fa7g7220g4580gf112481cff9e" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CommanderStrike_Attack_D8);UnlockSpellVariant(SpellId('Target_CommanderStrike_Attack_D8'),ModifyIconGlow());ActionResource(Movement,6,0);IgnoreLeaveAttackRange;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="478ff8aa-8ccf-4efa-86fe-5c7012691de0" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="739815be-b835-4167-a21e-1c554abdb36f" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78208aac-d55e-4727-900c-37f48eb4a94b" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34911218-9edd-478d-a16a-4786167195d5" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF008000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="15de2df3-d841-40f5-bac7-d5908d72f556" />

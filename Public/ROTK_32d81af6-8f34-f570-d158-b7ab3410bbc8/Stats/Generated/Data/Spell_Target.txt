@@ -1,0 +1,12 @@
+new entry "Target_CommandersStrike_HeavenlyJustice"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_CommandersStrike"
+data "Cooldown" "OncePerRestPerItem"
+data "SpellProperties" "ApplyStatus(COMMANDERS_STRIKE_HEAVENLYJUSTICE,100,1);"
+data "AmountOfTargets" "3"
+data "DisplayName" "hf1c832e5gd4cdg5c7cg6a34g84aa8c091e38;1"
+data "Description" "h2d32881ag9fa7g7220g4580gf112481cff9e;2"
+data "TooltipStatusApply" ""
+data "UseCosts" "ActionPoint:1;"
+

@@ -1,3 +1,31 @@
+new entry "위나라"
+type "StatusData"
+data "StatusType" "BOOST"
+
+new entry "COMMANDERS_STRIKE_HEAVENLYJUSTICE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "COMMANDERS_STRIKE_D8"
+data "DisplayName" "hf1c832e5gd4cdg5c7cg6a34g84aa8c091e38;1"
+data "Description" "h2d32881ag9fa7g7220g4580gf112481cff9e;1"
+data "Boosts" "UnlockSpell(Target_CommanderStrike_Attack_D8);UnlockSpellVariant(SpellId('Target_CommanderStrike_Attack_D8'),ModifyIconGlow());ActionResource(Movement,6,0);IgnoreLeaveAttackRange;"
+
+new entry "New_Stat_2"
+type "StatusData"
+data "StatusType" "BOOST"
+
+new entry "New_Stat_3"
+type "StatusData"
+data "StatusType" "BOOST"
+
+new entry "New_Stat_4"
+type "StatusData"
+data "StatusType" "BOOST"
+
+new entry "New_Stat_5"
+type "StatusData"
+data "StatusType" "BOOST"
+
 new entry "촉나라"
 type "StatusData"
 data "StatusType" "BOOST"

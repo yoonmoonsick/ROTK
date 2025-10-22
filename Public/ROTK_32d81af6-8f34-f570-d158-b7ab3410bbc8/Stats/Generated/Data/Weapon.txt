@@ -1,3 +1,30 @@
+new entry "위나라"
+type "Weapon"
+
+new entry "ROTK_WPN_HeavenlyJustice"
+type "Weapon"
+using "MAG_Primeval_Silver_Longsword"
+data "RootTemplate" "78e33621-3d21-4eca-be6a-ab5ae289a311"
+data "ValueLevel" "4"
+data "ValueUUID" "d24c441f-7ebe-4229-8522-cf34c257ff20"
+data "Rarity" "Legendary"
+data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Force);"
+data "Boosts" ""
+data "BoostsOnEquipMainHand" "UnlockSpell(Target_PommelStrike);UnlockSpell(Target_Slash_New);UnlockSpell(Rush_SpringAttack);UnlockSpell(Shout_AuraOf_Courage);UnlockSpell(Target_CommandersStrike_HeavenlyJustice);"
+data "PassivesOnEquip" ""
+
+new entry "New_Stat_2"
+type "Weapon"
+
+new entry "New_Stat_3"
+type "Weapon"
+
+new entry "New_Stat_4"
+type "Weapon"
+
+new entry "New_Stat_5"
+type "Weapon"
+
 new entry "촉나라"
 type "Weapon"
 
@@ -36,6 +63,7 @@ data "ValueUUID" "d24c441f-7ebe-4229-8522-cf34c257ff20"
 data "Rarity" "Legendary"
 data "WeaponFunctors" "IF(not SavingThrow(Ability.Constitution, 12)):DealDamage(10,Slashing);"
 data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Lightning);"
+data "Boosts" ""
 data "PassivesOnEquip" "ROTK_Passive_DragonBlade;MAG_IgnoreSlashingResistance_Passive;"
 
 new entry "ROTK_WPN_SerpentSpear"

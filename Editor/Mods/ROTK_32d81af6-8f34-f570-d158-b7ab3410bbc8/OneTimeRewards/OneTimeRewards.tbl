@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="951f7f7e-76f6-4ec5-96a7-61312b04e58c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4e4c7c66-439c-4365-afe7-6d7fa9191108" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="9a2f441c-b9ea-4106-af23-0817ab56eab6" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="손책" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="91b15366-631d-46dc-8b88-8b06c4aab19d" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="e703dfaf-7a65-41cc-89f7-3552af36372a" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="관우" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1914cb72-f178-493b-97d7-181b897976d1" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="475dc6fd-179e-4642-ae52-24b902a4e6a8" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="조운" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1a5e310a-421d-48a6-ae77-17e68cd98282" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="78e33621-3d21-4eca-be6a-ab5ae289a311" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="조조" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a2bad136-46f3-4702-9964-489ef9249c72" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="271f3bab-dff8-4fb6-b7e1-933ef6e826b0" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="주유" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ea731e60-7b62-4c05-a4ae-5327b1964ceb" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="8f861eb8-3ef1-4142-a910-ed22fd7a911b" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="장비" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="27f060fb-beb3-4ab1-8c01-4749d92db281" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="3b43487e-f079-4e39-ae29-28f2aeeff320" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="위연" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ec9a8638-c516-4183-a1bf-a20fa02cdd49" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="0e9abeec-5340-47e1-ac93-337809d62d0e" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="손견" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7f898664-89c1-4071-9e90-c1070cebb942" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="9e071f82-0fe3-4d47-894a-741e40eed546" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="유비1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ff30f4b8-7a08-404f-8e98-e40452d67153" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="c8149003-3546-418c-873a-3948afa8afd2" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="유비2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b72972f8-1e9a-4468-b0c4-8dc73fd1fd52" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="903a11e1-39b0-400a-a2f9-3e6f80f76649" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="여몽" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_11" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b12ab40c-bc72-4343-993a-b0deb69674a0" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="7f908c3d-5d5f-4b8e-9c20-7b22215fcf4e" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="감녕" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

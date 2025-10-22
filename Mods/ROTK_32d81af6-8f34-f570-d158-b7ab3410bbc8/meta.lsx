@@ -21,18 +21,18 @@
                     <attribute id="Author" type="LSString" value="Yoonmoonsick"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
                     <attribute id="Description" type="LSString" value="Romance of the Three Kingdoms"/>
-                    <attribute id="FileSize" type="uint64" value="0"/>
+                    <attribute id="FileSize" type="uint64" value="429993"/>
                     <attribute id="Folder" type="LSString" value="ROTK_32d81af6-8f34-f570-d158-b7ab3410bbc8"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value=""/>
+                    <attribute id="MD5" type="LSString" value="d1648311b96066daaa6aa11b8289e847"/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
                     <attribute id="Name" type="LSString" value="Weapon Pack - Romance of the Three Kingdoms"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
                     <attribute id="PhotoBooth" type="FixedString" value=""/>
-                    <attribute id="PublishHandle" type="uint64" value="0"/>
+                    <attribute id="PublishHandle" type="uint64" value="5307157"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="32d81af6-8f34-f570-d158-b7ab3410bbc8"/>
-                    <attribute id="Version64" type="int64" value="36028797018963968"/>
+                    <attribute id="Version64" type="int64" value="36028797018963970"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927718626661"/>

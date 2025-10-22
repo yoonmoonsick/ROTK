@@ -1,6 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
   <stat_objects>
+    <stat_object color="#FF0000CD" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a4594c79-e8ec-45b6-bc6b-ceb17745c1d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="위나라" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d774bb93-c3a4-4815-94b6-cdd0b29a1ef6" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_HeavenlyJustice" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a4200daa-351d-44be-86ad-40fb27e9914b" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Force);" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_PommelStrike);UnlockSpell(Target_Slash_New);UnlockSpell(Rush_SpringAttack);UnlockSpell(Shout_AuraOf_Courage);UnlockSpell(Target_CommandersStrike_HeavenlyJustice);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="78e33621-3d21-4eca-be6a-ab5ae289a311" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8464a2db-3396-4c2b-8e94-ef295ed3babb" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e45cef37-4c9f-4615-ad06-e15060c00d00" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="722dca91-ad6a-410b-9c5d-8ae0430fc66f" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1611d816-52ed-4e24-98ce-65b6ad26abed" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF008000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3afde386-8650-49c1-b7df-0cca8caebfef" />
@@ -51,6 +96,7 @@
         <field name="WeaponFunctors" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, 12)):DealDamage(10,Slashing);" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Lightning);" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ROTK_Passive_DragonBlade;MAG_IgnoreSlashingResistance_Passive;" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

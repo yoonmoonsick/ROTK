@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e988a674-28fe-49d2-a6ce-c5c1e0141f4c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="972dedb6-0d57-44be-907c-f954e4c1ba2f" />
+        <field name="Name" type="NameTableFieldDefinition" value="CommandersStrike_HeavenlyJustice" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a8e6fc7e-f4e1-4762-bb84-015dfdca4026" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRestPerItem" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(COMMANDERS_STRIKE_HEAVENLYJUSTICE,100,1);" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf1c832e5gd4cdg5c7cg6a34g84aa8c091e38" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2d32881ag9fa7g7220g4580gf112481cff9e" version="2" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
