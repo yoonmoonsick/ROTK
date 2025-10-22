@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c496009d-a970-44a3-b882-7ed3364dc271">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="55a82185-5d41-4902-b425-d186a9434db8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_FarskySpear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c98fe60c-62b6-4aa7-9d25-c49620bc56f0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb819d30cg5195g44bbgdfe9g206ab2170257" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hde3c35bbgd3fag521cgd193gb042df70ded9" version="2" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby;Far" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Self(context.Target,context.Observer) and not Self(context.Source,context.Observer) and Ally(context.Target, context.Observer) and Enemy(context.Source, context.Observer) and not HasPassive('Sentinel_Attack',context.Target) and IsAbleToReact(context.Observer) and IsMeleeAttack() and not DistanceToEntityGreaterThan(10, context.ObserverPosition, context.Source) and not AnyEntityIsItem() and HasLastAttackTriggered();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="UseSpell(OBSERVER_SOURCE,Rush_SpringAttack_Farsky,true,true,true);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

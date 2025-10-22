@@ -49,6 +49,13 @@ data "WeaponFunctors" "IF(not SavingThrow(Ability.Wisdom, 12)):ApplyStatus(FEARE
 data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Lightning);"
 data "PassivesOnEquip" "ROTK_Passive_SerpentSpear;MAG_IgnorePiercingResistance_Passive;"
 
+new entry "ROTK_WPN_FarskySpear"
+type "Weapon"
+using "ROTK_WPN_SerpentSpear"
+data "RootTemplate" "475dc6fd-179e-4642-ae52-24b902a4e6a8"
+data "WeaponFunctors" ""
+data "PassivesOnEquip" "ROTK_Passive_FarskySpear;Mobile_CounterAttackOfOpportunity;"
+
 new entry "오나라"
 type "Weapon"
 

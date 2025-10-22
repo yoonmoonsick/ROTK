@@ -1,0 +1,6 @@
+new entry "Rush_SpringAttack_Farsky"
+type "SpellData"
+data "SpellType" "Rush"
+using "Rush_SpringAttack"
+data "SpellSuccess" "IF(Character() and not SavingThrow(Ability.Strength, ManeuverSaveDC())):ApplyStatus(OFF_BALANCED,100,2);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);"
+

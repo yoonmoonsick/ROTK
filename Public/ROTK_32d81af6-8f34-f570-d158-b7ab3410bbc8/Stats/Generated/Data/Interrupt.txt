@@ -1,0 +1,10 @@
+new entry "Interrupt_FarskySpear"
+type "InterruptData"
+using "Interrupt_Sentinel"
+data "DisplayName" "hb819d30cg5195g44bbgdfe9g206ab2170257;1"
+data "Description" "hde3c35bbgd3fag521cgd193gb042df70ded9;2"
+data "DescriptionParams" "Distance(9)"
+data "InterruptContextScope" "Nearby;Far"
+data "Conditions" "not Self(context.Target,context.Observer) and not Self(context.Source,context.Observer) and Ally(context.Target, context.Observer) and Enemy(context.Source, context.Observer) and not HasPassive('Sentinel_Attack',context.Target) and IsAbleToReact(context.Observer) and IsMeleeAttack() and not DistanceToEntityGreaterThan(10, context.ObserverPosition, context.Source) and not AnyEntityIsItem() and HasLastAttackTriggered();"
+data "Properties" "UseSpell(OBSERVER_SOURCE,Rush_SpringAttack_Farsky,true,true,true);"
+

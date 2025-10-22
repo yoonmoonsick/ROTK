@@ -67,6 +67,16 @@
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ROTK_Passive_SerpentSpear;MAG_IgnorePiercingResistance_Passive;" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f04bbc0-efc8-4bca-9cd8-b17057bbeb38" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_FarskySpear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5eb029cb-5eb1-41c9-8931-91503c8bfb9d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="475dc6fd-179e-4642-ae52-24b902a4e6a8" />
+        <field name="WeaponFunctors" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ROTK_Passive_FarskySpear;Mobile_CounterAttackOfOpportunity;" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFF0000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3342360c-cb68-498b-b2b7-ce81e4a21a4b" />

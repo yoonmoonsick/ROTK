@@ -1,46 +1,41 @@
 <?xml version="1.0"?>
 <contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <content contentuid="h243f6e9bg86c8gaec4g0641gf61dbaade3b7" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;방어도&lt;/LSTag&gt;가 [1] 감소했습니다.</content>
-  
   <content contentuid="h5a5e7bb2g2e13gb84fg500cg5fce91b53d69" version="4">손견(孫堅)은 중국 후한 말의 군웅으로, 자는 문대(文臺)이며 양주(揚州) 오군(吳郡) 부춘현(富春縣) 사람이다. 후일 차남 손권에 의해 동오의 황제로 추존되었다. 묘호는 시조(始祖), 시호는 무열황제(武烈皇帝)이다. 젊어서부터 무공을 세웠으며 반동탁 연합군 중에서도 가장 선전하였다. 각 군웅들이 할거한 후에는 원술 밑에서 유표를 공격하다 황조의 저격으로 전사하였다.</content>
   <content contentuid="h449d26c7ge955g3269g2acdg2289a7a379fd" version="4">고정도</content>
   <content contentuid="hfc5fd0b1g7b91g51e2g08e5g2d4f1206dcb2" version="1">강동의 호랑이</content>
   <content contentuid="h2eb5f8fcga626g244dgeb62gcf12e381524a" version="2">&lt;LSTag Type="Status" Tooltip="MAG_MOMENTUM"&gt;가속도&lt;/LSTag&gt;의 효과를 받고 있는 동안, 무기 공격이 적중하면 2턴 동안 &lt;LSTag Type="Status" Tooltip="MAG_VIOLENCE"&gt;광폭&lt;/LSTag&gt; 상태에 돌입합니다.</content>
-  
   <content contentuid="h929bd040g7658gda6fg5cb1g01c507c52913" version="2">오 장사환왕 손책(吳 長沙桓王 孫策)은 중국 후한 말의 군웅이자 동오의 추존 군주이다. 자는 백부(伯符)이며 양주 오군 부춘현(富春縣) 사람이다. 손견의 장남이자, 대제 손권(孫權)의 형이다. 손견 사후 어린 나이에도 불구하도 강동의 호걸들을 불러모아, 강동을 정벌하여 오나라의 기반을 닦아 소패왕이라 불렸으며, 198년 조조와 원술과의 교전 중 조조를 도와 그의 천거로 토역장군(討逆將軍)의 칭호와 함께 오후(吳侯)의 작위를 받았다. 손책은 미모가 어마어마했으며 당대 최고의 미남이었다. 그래서 손랑(孫郞)이라는 별칭으로 불리었다. 그 미남으로 유명한 주유조차 손책의 미모를 보고 감탄했을 정도였다.</content>
   <content contentuid="h8071952fg7988gae7eg0683gaaa1fbc0bc65" version="2">패왕창</content>
   <content contentuid="haae2af07g3bcag7ecagfabegbded057bd1ed" version="1">소패왕</content>
   <content contentuid="h45788025g1bc7g9f93g36e2gc2533300e780" version="1">&lt;LSTag Tooltip="MeleeWeaponAttack"&gt;근거리 무기 공격&lt;/LSTag&gt;으로 &lt;LSTag Tooltip="CriticalHit"&gt;치명타&lt;/LSTag&gt;를 가하거나 크리처를 처치하면, 그 턴에 &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;보조 행동&lt;/LSTag&gt;을 추가로 얻습니다.</content>
-  
   <content contentuid="h50ba1f02g220agf97eg9b2cg3acde1553369" version="2">주유(周瑜)는 중국 후한 말의 무장, 전략가로 자는 공근(公瑾), 여강군 서현(舒縣) 출신이다. 손책과 손권 휘하의 인물로, 뛰어난 능력으로 강동의 손씨 정권을 잘 보좌하여 기반을 닦는데 크게 기여했다. 적벽 대전의 주역으로 조조의 남하를 저지하였다.</content>
   <content contentuid="h01bd16dbgb997g84edg4b63g66a7ab9f4fe2" version="2">적화검</content>
   <content contentuid="he790cb7eg8782g4e82gd0b8g1507d48c65d6" version="1">업화의 도독</content>
   <content contentuid="h652d9aa6g0f9eg5572g2caag124bf62f6d15" version="1">이 무기로 공격받은 대상은 난이도 12의 건강 내성 굴림에 실패하면, 2턴 동안 화염 피해에 &lt;LSTag Tooltip="VULNERABLE"&gt;취약&lt;/LSTag&gt; 상태가 됩니다.</content>
-  
   <content contentuid="hbece67aagd18bgf82egc7a8g8f4d59b2c1f2" version="4">여몽(呂蒙)은 중국 후한 말 손권 휘하의 장군으로 자는 자명(子明)이며 예주 여남군 부피현(富陂縣) 사람이다. 바닥에서부터 치고 올라온 무인이었는데 손권의 권유로 시작한 공부가 일취월장해서 노숙이 놀랐다는 괄목상대라는 고사와 관우가 지키던 형주를 손에 넣은 것으로 유명하다.</content>
   <content contentuid="ha9534217g818bgd1e5g0da8g8cbde5e80249" version="4">파군극</content>
   <content contentuid="he4e08807gad59gc321g61eag2bbe6ac0968c" version="1">괄목상대</content>
-
   <content contentuid="h01ed03d9gbdf4ge7bcgba74g7700b2f10df6" version="2">감녕은 중국 후한 말기의 군인으로, 자는 흥패(興霸)이며 익주 파군 임강현(臨江縣) 사람이다. 손권의 밑으로 들어갔고, 주유(周瑜)와 여몽(呂蒙)의 추천으로 손권의 기존 신하들과 같은 대우를 받았다.</content>
   <content contentuid="h6d3005d8gbfd8g8a94ga94ag261505f14eed" version="1">파랑인</content>
   <content contentuid="h72c70b58g14dag1498g1f7bgd77dc16225d5" version="1">금범적</content>
   <content contentuid="haba93391gab8cgad9eg43eeg30795d1b2543" version="3">착용자는 &lt;LSTag Tooltip="MovementSpeed"&gt;이동 속도&lt;/LSTag&gt;가 [1] 증가하고, &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;험지&lt;/LSTag&gt;의 영향을 받지 않습니다. 공격이 적중한 적의 &lt;LSTag Tooltip="ArmourClass"&gt;방어도&lt;/LSTag&gt;를 [2] 감소시킵니다. 아직 행동하지 않은 적에게 대한 명중 굴림에 유리 보정을 얻으며, 자신의 레벨만큼 추가 피해를 입힙니다.</content>
-  
   <content contentuid="he6e88a3eg8444g98e8g4401g56a4c50e1a1e" version="2">한 열조 소열황제 유비(漢 烈祖 昭烈皇帝 劉備)는 중국 후한 말의 군웅이자 삼국시대 촉한의 초대 황제이다. 자는 현덕(玄德)으로, 전한 경제의 9남 중산정왕 유승의 후손이다.</content>
   <content contentuid="h37e1770ag2258g7451g0140g1e5e606d0504" version="1">선주는 포부가 크고 굳세며, 너그럽고 후하고 사람을 알아 보고, 선비를 잘 대우하니 한 고조의 풍도와 영웅의 그릇을 갖추었던 것 같다. 나라를 들어 제갈량에게 탁고했으나 심신(心神)에 두 갈래가 없었으니 실로 군신(君臣)의 지극히 공정함은 고금의 아름다운 본보기이다. 기지와 임기응변, 재능과 모략은 위무제에는 미치지 못해 이 때문에 그 영토는 협소했다. 그러나 꺾일지언정 굽히지 않고 끝내 남의 아래에 있지 않았으니, 저들의 기량으로 필시 자신을 용납하지 못하리라 헤아리고, 오로지 이익만을 다투지 않고 해로움을 피하려 했다 말할 수 있겠다.</content>
   <content contentuid="hdad54256gcbd8gb045g199fg4b0081d77bfd" version="3">쌍고검: 인</content>
   <content contentuid="hfd8c7b5ag5475g7579g1ca8gfdcc1355d0ce" version="2">쌍고검: 의</content>
   <content contentuid="h266c81b4g73cag76c8g5c47g2286b168bd18" version="1">인의군주</content>
   <content contentuid="h65e3ef31gd917gd582g37bfg42176395ee4c" version="1">쌍고검 두 자루를 동시에 장착하고 있는 동안, 매력이 3 증가합니다.</content>
-  
-  <content contentuid="hc91fc996ge430gcad3gb5b0gcb51d6667f95" version="1">관우(關羽)는 중국 후한 말의 무장으로 자는 운장(雲長)이다. 관우는 생전에 뛰어난 무공과 충성을 보여 많은 사람들의 존경을 받았으며, 이러한 평판은 그의 사후에도 계속 이어졌다. 관우에 대한 추앙은 높아져 후대에는 공(公)에서 왕(王)을 넘어 주군 유비와 동급인 황제(帝)까지 추존되었고 급기야 신으로 모셔지기까지 했다.</content>
-  <content contentuid="h6b9d73abg92cag2a3cg30c2gab02df175c36" version="1">청룡언월도</content>
+  <content contentuid="hc91fc996ge430gcad3gb5b0gcb51d6667f95" version="2">관우(關羽)는 중국 후한 말의 무장으로 자는 운장(雲長)이다. 관우는 생전에 뛰어난 무공과 충성을 보여 많은 사람들의 존경을 받았으며, 이러한 평판은 그의 사후에도 계속 이어졌다. 관우에 대한 추앙은 높아져 후대에는 공(公)에서 왕(王)을 넘어 주군 유비와 동급인 황제(帝)까지 추존되었고 급기야 신으로 모셔지기까지 했다.</content>
+  <content contentuid="h6b9d73abg92cag2a3cg30c2gab02df175c36" version="2">청룡언월도</content>
   <content contentuid="h8138af17g79fbg0de4g91dage3d3fffcab54" version="1">군신</content>
   <content contentuid="hcca6d8a8g3c10g29d6g9a12g7e9880a0d56b" version="1">이 무기로 공격받은 대상은 난이도 12의 건강 내성 굴림에 실패하면, 추가로 [1]를 입습니다.</content>
-  
-  <content contentuid="hb42d07a3g575dg80c6gecafg7091c0bd9c9f" version="1">장비(張飛)는 중국 후한 말, 삼국시대 촉한의 무장으로 자는 익덕(益德)이다. 의형제인 유비, 관우와 함께 생사고락을 나누며 이름을 떨쳤다. 무예와 용맹이 탁월하여 관우와 쌍벽을 이루었으며, 그의 포효와 일격은 적군에게 공포로 다가와 ‘만인적’이라 불릴 정도였다.</content>
-  <content contentuid="h37ecf41eg8135g32a0gaf6dg6a9871d8eb72" version="1">장팔사모</content>
+  <content contentuid="hb42d07a3g575dg80c6gecafg7091c0bd9c9f" version="2">장비(張飛)는 중국 후한 말, 삼국시대 촉한의 무장으로 자는 익덕(益德)이다. 의형제인 유비, 관우와 함께 생사고락을 나누며 이름을 떨쳤다. 무예와 용맹이 탁월하여 관우와 쌍벽을 이루었으며, 그의 포효와 일격은 적군에게 공포로 다가와 ‘만인적’이라 불릴 정도였다.</content>
+  <content contentuid="h37ecf41eg8135g32a0gaf6dg6a9871d8eb72" version="2">장팔사모</content>
   <content contentuid="h7ac2f038ge8bcg3ef8gb3beg77f0f56af116" version="1">만인적</content>
   <content contentuid="ha1651cd5gfe7cg96abg69a6g33c0b023493c" version="1">이 무기로 공격받은 대상은 난이도 12의 지혜 내성 굴림에 실패하면, 2턴 동안 &lt;LSTag Tooltip="FEARED"&gt;공포&lt;/LSTag&gt; 상태가 됩니다.</content>
-  
+  <content contentuid="hd3e519fdg6682g1b67gc757g5fc012ad0edd" version="3">조운(趙雲)은 중국 후한 말, 삼국 시대 촉한의 무장으로, 자는 자룡(子龍), 기주 상산군 진정현 출신이다. 오랜 기간 선주 유비를 따르며 제업에 공을 세웠다.</content>
+  <content contentuid="h4c9f2abagcc0bg1961gf2aeg2ab1437147b3" version="2">애각창</content>
+  <content contentuid="hb819d30cg5195g44bbgdfe9g206ab2170257" version="1">일신시담</content>
+  <content contentuid="hde3c35bbgd3fag521cgd193gb042df70ded9" version="2">[1] 이내의 적이 아군에게 공격을 명중시키면, 대응으로 해당 적에게 돌진 공격을 가할 수 있습니다.</content>
 </contentList>
