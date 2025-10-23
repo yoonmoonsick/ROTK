@@ -62,12 +62,6 @@
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_TheWoundSeeker_Greatsword_Passive;PolearmMaster_AttackOfOpportunity;MAG_InitiativeBonus_2_Passive;" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="1611d816-52ed-4e24-98ce-65b6ad26abed" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
-      </fields>
-    </stat_object>
     <stat_object color="#FF008000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3afde386-8650-49c1-b7df-0cca8caebfef" />

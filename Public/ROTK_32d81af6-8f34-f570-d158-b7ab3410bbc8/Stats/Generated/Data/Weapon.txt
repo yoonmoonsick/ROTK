@@ -44,9 +44,6 @@ data "Rarity" "Legendary"
 data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Force);"
 data "PassivesOnEquip" "MAG_TheWoundSeeker_Greatsword_Passive;PolearmMaster_AttackOfOpportunity;MAG_InitiativeBonus_2_Passive;"
 
-new entry "New_Stat_5"
-type "Weapon"
-
 new entry "촉나라"
 type "Weapon"
 
