@@ -56,6 +56,14 @@
                     <attribute id="ItemTemplateId" type="FixedString" value="08b823e6-854f-4eac-8bb0-95e3c7d44b86"/>
                     <attribute id="UUID" type="guid" value="fbf69cf5-cba5-4154-9728-627660962837"/>
                 </node>
+                <node id="OneTimeReward">
+                    <attribute id="ItemTemplateId" type="FixedString" value="888fd643-1450-482d-bda8-ad2169a194cd"/>
+                    <attribute id="UUID" type="guid" value="f6dbdce3-69c4-49de-8af1-eb4e8a329d55"/>
+                </node>
+                <node id="OneTimeReward">
+                    <attribute id="ItemTemplateId" type="FixedString" value="af4de912-46e3-438a-ba90-14d73750a50a"/>
+                    <attribute id="UUID" type="guid" value="a9ef9eb7-043e-40ac-9cb1-4317d2e5d6bb"/>
+                </node>
             </children>
         </node>
     </region>

@@ -40,13 +40,26 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e45cef37-4c9f-4615-ad06-e15060c00d00" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_WarCleaver" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f6fb0b87-865f-4896-b367-68c06461d582" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="af4de912-46e3-438a-ba90-14d73750a50a" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Force);" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Zone_Cleave);UnlockSpell(Target_Slash_New);UnlockSpell(Shout_FullSwing);UnlockSpell(Zone_Mag_WeaponAction_GiantBlade);UnlockSpell(Target_PLA_ShieldOfFaith_SwordOfJustice);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Defender_DefensiveStance_Passive;MAG_LC_Cyric_FearImmunity_Amulet_Passive;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="722dca91-ad6a-410b-9c5d-8ae0430fc66f" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_Steelspirit" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4290eddc-b607-45e5-b4cf-55f88ae1b66b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="888fd643-1450-482d-bda8-ad2169a194cd" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Force);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_TheWoundSeeker_Greatsword_Passive;PolearmMaster_AttackOfOpportunity;MAG_InitiativeBonus_2_Passive;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

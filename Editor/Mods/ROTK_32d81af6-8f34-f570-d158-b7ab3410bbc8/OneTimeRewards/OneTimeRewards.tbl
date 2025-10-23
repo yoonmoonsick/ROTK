@@ -105,5 +105,21 @@
         <field name="Comment" type="CommentTableFieldDefinition" value="허저" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f6dbdce3-69c4-49de-8af1-eb4e8a329d55" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="888fd643-1450-482d-bda8-ad2169a194cd" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="장료" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_14" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a9ef9eb7-043e-40ac-9cb1-4317d2e5d6bb" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="af4de912-46e3-438a-ba90-14d73750a50a" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="서황" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
