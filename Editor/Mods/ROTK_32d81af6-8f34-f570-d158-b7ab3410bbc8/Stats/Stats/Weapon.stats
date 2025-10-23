@@ -25,7 +25,16 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8464a2db-3396-4c2b-8e94-ef295ed3babb" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_Skylock" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ef3bd08-c34e-4d18-97ee-c0f6ffd6188a" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="08b823e6-854f-4eac-8bb0-95e3c7d44b86" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Force);" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_PostureBreaker);UnlockSpell(Target_ConcussiveSmash);UnlockSpell(Rush_MAG_Barbarian_Armor_Trample);UnlockSpell(Throw_ImprovisedWeaponBerserker);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ROTK_Passive_Skylock;MAG_BarbMonk_Strength_Passive;" />
+        <field name="StatusOnEquip" type="StringTableFieldDefinition" value="MAG_BULLS_STRENGTH;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -146,7 +155,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="24f7c5b1-3d91-4ca6-8a96-53305390523a" />
         <field name="Name" type="NameTableFieldDefinition" value="ROTK_WPN_TigerBlade" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="903b673f-d058-4877-b12f-131c09e13cbf" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="10a873f8-9736-49d7-975f-128ad5f7b3bf" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(2);WeaponProperty(Magical);WeaponDamage(1d4, Fire);" />
@@ -156,6 +165,7 @@
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ROTK_Passive_TigerBlade;MAG_Mobility_MomentumOnCombatStart_Passive;MAG_PHB_Sentinel_Shield_Passive;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="InventoryTab" type="EnumerationTableFieldDefinition" value="Equipment" enumeration_type_name="InventoryTabs" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

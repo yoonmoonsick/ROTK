@@ -10,7 +10,11 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fc060094-660e-4faf-80a3-ba07318b868e" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="Name" type="NameTableFieldDefinition" value="ROTK_Passive_Skylock" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4087af50-aeb9-4ce9-94b9-e1a4d448c7a9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h684d6879gb5f0g0d5ag9ae8g79acb3b83829" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2;24" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Strength, 2, 24);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

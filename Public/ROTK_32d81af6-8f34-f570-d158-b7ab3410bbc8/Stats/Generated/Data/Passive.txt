@@ -1,8 +1,12 @@
 new entry "위나라"
 type "PassiveData"
 
-new entry "New_Stat_2"
+new entry "ROTK_Passive_Skylock"
 type "PassiveData"
+using "MAG_BarbMonk_Armor_Offensive_Passive"
+data "DisplayName" "h684d6879gb5f0g0d5ag9ae8g79acb3b83829;1"
+data "DescriptionParams" "2;24"
+data "Boosts" "Ability(Strength, 2, 24);"
 
 new entry "New_Stat_3"
 type "PassiveData"

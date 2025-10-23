@@ -97,5 +97,13 @@
         <field name="Comment" type="CommentTableFieldDefinition" value="감녕" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_12" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fbf69cf5-cba5-4154-9728-627660962837" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="08b823e6-854f-4eac-8bb0-95e3c7d44b86" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="허저" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
